@@ -14,6 +14,21 @@
   margin-bottom: 20px;
 }
 
+.battle-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.vs-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* Pokemon */
 .pokemon-card {
   width: 40%;
@@ -53,6 +68,11 @@ p.right {
   /* TODO: add nice anim as though ready to fight*/
 }
 
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
 /* BattleButton */
 .battle-button {
   background: linear-gradient(90deg, #ff4e50, #fc913a);
@@ -75,6 +95,30 @@ p.right {
   color: #888;
   cursor: not-allowed;
   transform: none;
+}
+
+/* Battle Log */
+.battle-log-container {
+  width: 80%;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.battle-log-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.battle-log {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+  min-height: 24px;
 }
 
 /* Loader */
