@@ -60,7 +60,8 @@ const PokemonBattle: React.FC = React.memo(() => {
     toggleDisableStart(false);
   }, [fetchPokemon, toggleDisableStart]);
 
-  // TODO: render loader inside cards instead
+  //   TODO: have error hoc
+  //    TODO: render loader inside cards instead
 
   const content = error ? (
     <Suspense fallback={<div>Loading Error...</div>}>
