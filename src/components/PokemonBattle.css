@@ -14,6 +14,30 @@
   margin-bottom: 20px;
 }
 
+/* BattleButton */
+.battle-button {
+  background: linear-gradient(90deg, #ff4e50, #fc913a);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.battle-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(90deg, #fc913a, #ff4e50);
+}
+
+.battle-button:disabled {
+  background: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  transform: none;
+}
+
 /* Loader */
 .loader {
   display: flex;
